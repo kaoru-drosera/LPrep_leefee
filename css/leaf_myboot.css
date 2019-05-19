@@ -1,0 +1,135 @@
+
+
+.container{
+  margin: auto;
+}
+
+/* float関連 */
+.clearFix{
+  content: "";
+  clear: both;
+  display: block;
+}
+.floatLeftDB{
+  float: left;
+  display: block;
+}
+.floatLeft{
+  float: left;
+}
+.floatRightDB{
+  float: right;
+  display: block;
+}
+.floatRight{
+  float: right;
+}
+/* ここまでfloat関連 */
+
+/* flex関連 */
+.flexbox{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+.flexbox-column{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+}
+.flexbox-lowReverse{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.flex-columnReverse{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+}
+.flex-jcFlexEnd{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: flex-end;
+}
+.flex-jcFlexStart{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: flex-start;
+}
+.flex-jcSpaceBetween{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+}
+.flex-centerling{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+.flex-aiFlexStart{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: flex-start;
+  align-items: flex-start;
+}
+.flex-aiFlexEnd{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: flex-end;
+  align-items: flex-end;
+}
+.flex-aiCenter{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+}
+/* flex関連 */
+
+/* position関連 */
+
+.positionRerative{
+  position: relative;
+}
+.positionAbsolute{
+  position: absolute;
+}
+.positionAbsoluteCentering{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.positionAbsoluteCenteringX{
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.positionAbsoluteCenteringY{
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* ここまでposition関連 */
