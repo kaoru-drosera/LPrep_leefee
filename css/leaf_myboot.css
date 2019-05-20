@@ -8,61 +8,37 @@
 .clearFix{
   content: "";
   clear: both;
-}
-.clearFixDB{
-  content: "";
-  clear: both;
   display: block;
 }
-.floatLeftDB,
-.floatLeftDBmCol{
+.floatLeftDB{
   float: left;
   display: block;
 }
-.floatLeft,
-.floatLeftmCol{
+.floatLeft{
   float: left;
 }
-.floatRightDB,
-.floatRightDBmCol{
+.floatRightDB{
   float: right;
   display: block;
 }
-.floatRight,
-.floatRightmCol{
+.floatRight{
   float: right;
 }
 /* ここまでfloat関連 */
 
-
-
-/* fixedメニュー */
-
-.fixedMenu{
-  width: 100px;
-  position: fixed;
-  z-index: 9999;
-}
-
-/* ここまでfixedメニュー */
-
-
-
 /* flex関連 */
-.flex,
-.flex-toColumnReverse{
+.flexbox{
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
 }
-.flex-column{
+.flexbox-column{
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
   flex-direction: column;
 }
-.flex-lowReverse,
-.flex-lowReverse-toColumn{
+.flexbox-lowReverse{
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
@@ -94,12 +70,6 @@
   display: flex;
   justify-content: space-between;
 }
-.flex-jcCenter{
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  justify-content: center;
-}
 .flex-centerling{
   display: -webkit-flex;
   display: -ms-flex;
@@ -130,8 +100,6 @@
   align-items: center;
 }
 /* flex関連 */
-
-
 
 /* position関連 */
 
