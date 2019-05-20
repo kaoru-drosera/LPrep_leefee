@@ -8,6 +8,10 @@
 .clearFix{
   content: "";
   clear: both;
+}
+.clearFixDB{
+  content: "";
+  clear: both;
   display: block;
 }
 .floatLeftDB,
@@ -32,19 +36,33 @@
 
 
 
+/* fixedメニュー */
+
+.fixedMenu{
+  width: 100px;
+  position: fixed;
+  z-index: 9999;
+}
+
+/* ここまでfixedメニュー */
+
+
+
 /* flex関連 */
-.flexbox{
+.flex,
+.flex-toColumnReverse{
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
 }
-.flexbox-column{
+.flex-column{
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
   flex-direction: column;
 }
-.flexbox-lowReverse{
+.flex-lowReverse,
+.flex-lowReverse-toColumn{
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
@@ -75,6 +93,12 @@
   display: -ms-flex;
   display: flex;
   justify-content: space-between;
+}
+.flex-jcCenter{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
 }
 .flex-centerling{
   display: -webkit-flex;

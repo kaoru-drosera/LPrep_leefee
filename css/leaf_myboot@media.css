@@ -8,6 +8,10 @@
 .clearFix{
   content: "";
   clear: both;
+}
+.clearFixDB{
+  content: "";
+  clear: both;
   display: block;
 }
 .floatLeftDBmCol{
@@ -27,24 +31,26 @@
 /* ここまでfloat関連 */
 
 /* flex関連 */
-.flexbox{
+.flex{
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
 }
-.flexbox-column{
+.flex-column,
+.flex-lowReverse-toColumn{
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
   flex-direction: column;
 }
-.flexbox-lowReverse{
+.flex-lowReverse{
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
   flex-direction: row-reverse;
 }
-.flex-columnReverse{
+.flex-columnReverse,
+.flex-toColumnReverse{
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
