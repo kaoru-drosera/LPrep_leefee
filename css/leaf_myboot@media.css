@@ -10,27 +10,21 @@
   clear: both;
   display: block;
 }
-.floatLeftDB,
 .floatLeftDBmCol{
-  float: left;
+  float: initial
   display: block;
 }
-.floatLeft,
 .floatLeftmCol{
-  float: left;
+  float: initial;
 }
-.floatRightDB,
 .floatRightDBmCol{
-  float: right;
+  float: initial;
   display: block;
 }
-.floatRight,
 .floatRightmCol{
-  float: right;
+  float: initial;
 }
 /* ここまでfloat関連 */
-
-
 
 /* flex関連 */
 .flexbox{
@@ -106,8 +100,6 @@
   align-items: center;
 }
 /* flex関連 */
-
-
 
 /* position関連 */
 
