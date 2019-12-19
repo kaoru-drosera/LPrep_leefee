@@ -70,6 +70,13 @@
   display: flex;
   justify-content: space-between;
 }
+.flex-jcSpaceBetweenW100p{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
 .flex-centerling{
   display: -webkit-flex;
   display: -ms-flex;
@@ -91,6 +98,14 @@
   display: flex;
   -ms-align-items: flex-end;
   align-items: flex-end;
+}
+.flex-aiFlexEndW100p{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: flex-end;
+  align-items: flex-end;
+  width: 100%;
 }
 .flex-aiCenter{
   display: -webkit-flex;

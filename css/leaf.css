@@ -21,11 +21,15 @@
 
     background-color: #888;
 }
-.wrap2
+.wrapInner2
 {
     display: inline-block;
 }
 .flexcontents
 {
     display: inline-block;
+}
+.container2 > div
+{
+  width: 100%;
 }
